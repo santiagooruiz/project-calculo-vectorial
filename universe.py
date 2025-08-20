@@ -43,4 +43,4 @@ ax.set_ylim(-10, 10)
 
 # Crear animación
 ani = FuncAnimation(fig, update, frames=200, interval=50, blit=True)
-plt.show()
+plt.show()  
